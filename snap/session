@@ -10,17 +10,17 @@ set -e
 if [ -z "$XDG_DATA_DIRS" ]; then
     XDG_DATA_DIRS="/usr/local/share/:/usr/share/"
 fi
-if [ -n "${XDG_DATA_DIRS##*/snap/communitheme/current/share/*}" ]; then
-    XDG_DATA_DIRS=/snap/communitheme/current/share/:"$XDG_DATA_DIRS"
+if [ -n "${XDG_DATA_DIRS##*/snap/baru/current/share/*}" ]; then
+    XDG_DATA_DIRS=/snap/baru/current/share/:"$XDG_DATA_DIRS"
     export XDG_DATA_DIRS
 fi
 
 current=$(gsettings get org.gnome.desktop.interface gtk-theme)
 
-if [ $current = "'Communitheme'" ]; then
-  GTK2_RC_FILES="/snap/communitheme/current/share/themes/Communitheme/gtk-2.0/gtkrc"
-elif [ $current = "'Communitheme-dark'" ]; then
-  GTK2_RC_FILES="/snap/communitheme/current/share/themes/Communitheme-dark/gtk-2.0/gtkrc"
+if [ $current = "'Baru'" ]; then
+  GTK2_RC_FILES="/snap/baru/current/share/themes/Baru/gtk-2.0/gtkrc"
+elif [ $current = "'Baru-dark'" ]; then
+  GTK2_RC_FILES="/snap/baru/current/share/themes/Baru-dark/gtk-2.0/gtkrc"
 else
   GTK2_RC_FILES=""
 fi
