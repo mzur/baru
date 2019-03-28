@@ -1,6 +1,7 @@
 # Meson suggested build directories (local and package)
 build/
 /obj-*/
+*.tar.gz
 
 # Packaging generated content
 debian/*debhelper*
