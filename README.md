@@ -3,7 +3,7 @@
 This is a variant of the [Yaru](https://github.com/ubuntu/yaru) Ubuntu theme.
 
 <p align="center">
-   <img src="baru.png" width="200">
+   <img src="baru.png" height="400">
 </p>
 
 ## Installing
