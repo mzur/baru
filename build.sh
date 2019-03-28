@@ -14,3 +14,5 @@ cd /dist/share/themes/Baru-dark
 cp -r /dist/share/gnome-shell/theme/Baru gnome-shell
 cd /dist/share/themes
 tar -czf /build/themes.tar.gz Baru Baru-dark
+cd /dist/share/sounds
+tar -czf /build/sounds.tar.gz Baru
