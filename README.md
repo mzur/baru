@@ -9,8 +9,8 @@ This is a variant of the [Yaru](https://github.com/ubuntu/yaru) Ubuntu theme.
 ## Installing
 
 1. Install the [User Themes](https://extensions.gnome.org/extension/19/user-themes/) extension.
-2. Grab the latest theme release and extract it to `~/.themes`.
-3. Grab the latest icon release and extract it to `~/.icons`.
+2. Grab the `themes.tar.gz` from the latest release and extract it to `~/.themes`.
+3. Grab the `icons.tar.gz` from the latest release and extract it to `~/.icons`.
 4. Open GNOME Tweak and set the appearance of applications, cursor, icons and shell to "Baru".
 5. Restart GNOME shell.
 
