@@ -1695,11 +1695,11 @@ StScrollBar {
     border: none;
     min-height: 64px;
     box-shadow: 0 3px 9px 1px transparentize(black, 0.5);
-    &:hover { background: $light_base_color; }
+    &:hover { background: $dark_fg_color; }
     &, &:focus, &:active {
-      background-color: $light_base_color;
-      .message-title { color: darken($dark_fg_color, 10%); }
-      .message-content { color: $dark_fg_color; }
+      background-color: $dark_fg_color;
+      .message-title { color: $light_base_color; }
+      .message-content { color: $light_bg_color; }
     }
 
     .message-icon-bin > StIcon {
