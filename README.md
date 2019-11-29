@@ -14,6 +14,12 @@ This is a variant of the [Yaru](https://github.com/ubuntu/yaru) Ubuntu theme.
 4. Open GNOME Tweak and set the appearance of applications, cursor, icons and shell to "Baru".
 5. Restart GNOME shell.
 
+If you use Ubuntu's dash to dock run:
+```bash
+gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots-color '#37c4d6'
+gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots-border-color '#37c4d6'
+```
+
 ## Building
 
 1. Create the build Docker container with: `docker build -t mzur/baru .`
