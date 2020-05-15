@@ -204,7 +204,7 @@ $_disk_space_free: if($variant=='light', darken($bg_color, 10%), $bg_color);
  * Terminal *
  ************/
 
-$_terminal_bg_color: #300A24;
+$_terminal_bg_color: #0b272a;
 $_terminal_fg_color: white;
 
 terminal-window {
