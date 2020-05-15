@@ -17,5 +17,5 @@ This is a variant of the [Yaru](https://github.com/ubuntu/yaru) Ubuntu theme.
 ## Building
 
 1. Create the build Docker container with: `docker build -t mzur/baru .`
-2. Run the build: `docker run --rm --user=$UID -v $(pwd):/build mzur/baru ./build.sh`
+2. Run the build: `docker run --rm --user=$UID:$UID -v $(pwd):/build mzur/baru ./build.sh`
 3. You get the `icons.tar.gz` and `themes.tar.gz` release files.
